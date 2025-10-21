@@ -1,13 +1,13 @@
 {% set name = "aioshutil" %}
-{% set version = "1.5" %}
+{% set version = "1.6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aioshutil-{{ version }}.tar.gz
-  sha256: 2756d6cd3bb03405dc7348ac11a0b60eb949ebd63cdd15f56e922410231c1201
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aioshutil-{{ version }}.tar.gz
+  sha256: 9eae342b9a4cacc2c2c5877877a2d2f7a2b66c62aa1ab57d7e95c8cfd4ede507
 
 build:
   noarch: python
